@@ -1,0 +1,149 @@
+
+/* === START BAR === */
+.start-bar {
+    border-radius: 4px;
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+    height: 50px;
+
+    border: 2px outset var(--win95-light);      /* light border */
+    background-color: var(--win95-bg);          /* themed background */
+    box-shadow: 2px 2px 0 var(--win95-dark);    /* 3D shadow */
+    color: var(--win95-fg);                     /* themed text color */
+
+    font-family: var(--main-font);
+    z-index: 1030;
+    padding: 0.5rem;
+}
+
+.start-bar-content {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	padding-left: 8px;
+	gap: 10px;
+	overflow: visible;
+}
+
+.taskbar-apps {
+	display: flex;
+	align-items: center;
+	height: 100%;
+    gap: 6px;
+}
+
+/* === START BUTTON === */
+.start-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 22px;
+
+    left: 12px;
+    height: 2rem;
+    min-width: 4.5rem;
+    width: auto;
+
+    color: var(--win95-fg);
+	background-color: var(--win95-bg);
+
+	border: 2px outset var(--win95-light);
+	box-shadow: 2px 2px 0 var(--win95-dark); /* match start button */
+    margin-right: 2.5rem;
+}
+
+/* === TASKBAR BUTTONS (for minimized windows) === */
+.taskbar-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+	height: 30px;
+	min-width: 120px;
+	max-width: 180px;
+    width: auto;
+
+	margin-left: 6px;
+	padding: 0 10px;
+
+	font-family: var(--main-font);
+	font-size: 22px;
+	color: var(--win95-fg);
+	background-color: var(--win95-bg);
+
+	border: 2px outset var(--win95-light);
+	box-shadow: 2px 2px 0 var(--win95-dark); /* match start button */
+	cursor: pointer;
+
+	position: relative;
+}
+
+.start-menu {
+    position: fixed;
+    bottom: 51px;
+    left: 16px;
+
+    min-width: 150px;
+    width: auto;
+
+    background-color: var(--win95-bg);
+    border: 2px outset var(--win95-light);
+    box-shadow: 2px 2px 0 var(--win95-dark);
+
+    color: var(--win95-fg);
+    font-family: var(--main-font);
+
+    z-index: 9000;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+/* Show menu when .visible class is added */
+.start-menu.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Hide completely after fade-out ends */
+.start-menu.hidden {
+    display: none;
+}
+
+/* Utility class to hide by default */
+.hidden {
+    display: none;
+}
+
+.start-menu-list {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.start-menu-item {
+    padding: 0.25rem 2px;
+    border-bottom: 1px solid var(--win95-light);
+    box-shadow: 2px 2px 0 var(--win95-dark);
+    cursor: pointer;
+    user-select: none;
+    font-size: 20px;
+    font-family: var(--main-font);
+}
+
+.start-menu .brutal-button {
+    width: 100%;
+    padding: 0.25rem 0.5rem;
+    font-size: 22px;
+}

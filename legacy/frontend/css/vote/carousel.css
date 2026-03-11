@@ -1,0 +1,116 @@
+html, body {
+    height: 99%;
+    margin: 0;
+    padding: 0;
+    overflow: auto !important;
+}
+
+body {
+    background: var(--win95-bg);
+	font-family: var(--main-font);
+	/* padding-bottom: 1.2% !important; */
+	align-items: center;
+	overflow-x: hidden !important;
+}
+
+/* === CAROUSEL WRAPPER === */
+.carousel-container {
+	margin-top: 2.5rem;
+    color: var(--win95-fg);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding: 1rem;
+}
+
+/* === IMAGE CAROUSEL === */
+.carousel {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+    margin: 1rem;
+}
+
+.carousel .brutal-button {
+    color: var(--win95-fg);
+    justify-content: center;
+    font-size: 3rem;
+    min-width: 4rem;
+    min-height: 2rem;
+    width: auto;
+    height: auto;
+    border: 2px outset var(--win95-light);      /* light border */
+    background-color: var(--win95-bg);          /* themed background */
+    box-shadow: 2px 2px 0 var(--win95-dark);    /* 3D shadow */
+    color: var(--win95-fg);                   
+}
+
+#image-container {
+	color: var(--win95-fg);
+	width: 900px;
+	height: auto;
+	min-width: 900px;
+	max-width: 900px;
+	display: flex;
+	flex-direction: column; /* ✅ stack vertically */
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	border: 2px outset var(--win95-light);
+	box-shadow: 2px 2px 0 var(--win95-dark);
+	background-color: var(--win95-bg);
+	overflow: hidden;
+	padding: 1rem 0; /* optional vertical padding */
+}
+
+#carousel-image {
+	width: 97%;
+	height: auto;
+	max-height: 600px;
+	object-fit: contain;
+	pointer-events: none;
+	user-select: none;
+	margin-bottom: 1rem; /* spacing between image and text */
+}
+
+#image-desc {
+	margin: 1rem;
+	font-size: 2.5rem;
+	text-align: center;
+	padding: 0 1rem;
+	word-wrap: break-word;
+	white-space: normal;
+	width: 100%;
+}
+
+
+/* === VOTE CONTROLS === */
+.voting {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	margin-top: 2rem;
+}
+
+.voting button {
+	width: auto;
+    min-width: 3rem;
+	height: auto;
+    min-height: 3rem;
+	font-family: var(--main-font);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font-size: 1.5rem;
+    border: 2px outset var(--win95-light);      /* light border */
+    background-color: var(--win95-bg);          /* themed background */
+    box-shadow: 2px 2px 0 var(--win95-dark);    /* 3D shadow */
+    color: var(--win95-fg);                  
+}
+
+.voting button span {
+	margin-left: 0.5rem;
+}

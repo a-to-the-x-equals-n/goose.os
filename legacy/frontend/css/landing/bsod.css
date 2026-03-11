@@ -1,0 +1,80 @@
+
+/* ================
+   BSOD OVERLAY
+=================== */
+#bsod-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bsod-blue);
+    color: var(--bsod-white);
+    z-index: 9999;
+    padding-top: 1%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+
+    font-family: var(--main-font);
+    font-size: var(--bsod-font-size);
+    letter-spacing: var(--bsod-letter-spacing);
+}
+
+/* ========================
+   BSOD HEADING (WINDOWS)
+=========================== */
+#bsod-heading {
+    color: var(--bsod-blue);
+    font-weight: bold;
+    padding: 1px 10px;
+    margin-top: 6%;
+    display: inline-block;
+    background-color: var(--bsod-grey);
+}
+
+/* ========================
+   BSOD TEXT AREA
+=========================== */
+#bsod-text {
+    position: relative;
+    text-align: left;
+
+    overflow-x: auto;
+    max-width: 90vw;
+    margin-top: 3%;
+
+    /* === FONT === */
+    white-space: pre;
+    line-height: 1.4;
+    font-family: var(--main-font);
+    font-size: var(--bsod-font-size);
+    letter-spacing: var(--bsod-letter-spacing);
+    right: 10rem;
+}
+
+/* ================
+   PRESS PROMPT
+=================== */
+#bsodPrompt {
+    display: inline-block;
+    color: var(--bsod-white);
+    margin-top: .2%;
+}
+
+#bsodPrompt::after {
+    display: inline-block;
+    content: '_';
+    font-weight: bold;
+    animation: blink 0.9s steps(2, start) infinite;
+    right: -18px;
+}
+
+@keyframes blink {
+    0%   { opacity: 1; }
+    50%  { opacity: 0; }
+    100% { opacity: 1; }
+}
