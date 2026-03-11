@@ -1,0 +1,50 @@
+services:
+
+  # ---- DATABASE ----
+  db:
+    image: mysql:8.0
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: br_web
+      MYSQL_USER: dev
+      MYSQL_PASSWORD: pass
+    volumes:
+      - ./data/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+      - db-data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "dev", "--password=pass"]
+      interval: 5s
+      timeout: 3s
+      retries: 15
+
+  # ---- BACKEND (Flask) ----
+  api:
+    build:
+      context: .
+      dockerfile: api/Dockerfile
+    restart: unless-stopped
+    volumes:
+      - ./data/assets/gooses:/app/api/app/models/assets/gooses
+      - ./.env.docker:/app/api/app/.env:ro
+    ports:
+      - "8003:8003"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  # ---- FRONTEND (nginx) ----
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    restart: unless-stopped
+    ports:
+      - "8002:80"
+    depends_on:
+      - api
+
+volumes:
+  db-data:
