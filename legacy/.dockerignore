@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+*.egg
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Dev / test artifacts
+hide/
+hidden/
+api/test/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log*
+
+# Byte-compiled
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp
+*.tmp
+*.bak
+*~
+
+# Git
+.git/
+.gitignore
+
+# Docker meta (no need to copy into image)
+docker-compose.yml
+.dockerignore
