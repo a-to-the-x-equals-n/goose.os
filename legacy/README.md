@@ -8,7 +8,9 @@ An immersive brutalist-retro styled web app inspired by Windows 95, featuring:
 - A fully styled brutalist desktop UI
 
 On landing, there's a simulated "Blue Screen of Death" that leads into reboot sequence, only to discover...   
-..._Old Cosmic Gods are infiltrating the software._ Against the __Old Gods__, there is only one defense: __*Gooses*__!
+..._Old Cosmic Gods are infiltrating the software._ 
+
+#### Against the __Old Eldritch Gods__, there is only one defense: __*Gooses*__! <!-- omit in toc -->
 
 
 ## Table of Contents <!-- omit in toc -->
@@ -25,8 +27,6 @@ On landing, there's a simulated "Blue Screen of Death" that leads into reboot se
   - [Cosmic Boot Sequence](#cosmic-boot-sequence)
 - [Requirements](#requirements)
 - [Motivation](#motivation)
-
-
 
 ---
 
@@ -75,7 +75,7 @@ Docker is the easiest way to get everything running. It handles the database, ba
 ```bash
 make docker-up
 ```
-s
+
 This builds the images and starts __three__ containers:
 
 | container  | houses                              | local address         |
@@ -84,7 +84,7 @@ This builds the images and starts __three__ containers:
 | `api`      | flask backend                       | `localhost:8003`      |
 | `frontend` | nginx serving the static site       | `localhost:8002`      |
 
-The database is seeded from `data/init.sql` on first run. The goose images in `data/assets/gooses/` are mounted directly into the api container — no manual copying needed.
+The database is seeded from `data/init.sql` on first run. The goose images in `data/assets/gooses/` are mounted directly into the api container—no manual copying needed.
 
 To stop everything:
 
@@ -193,11 +193,11 @@ make pack-data
 
 ## <span style="color: #00BE67;">Pages</span>
 
-- `index.html`: the Win95 desktop hub
-- `upload.html`: image drag-and-drop upload
-- `belles-lettres.html`: voting carousels
-- `goose.html`: matrix-avoidance game
-- `vibes.html`: a TV-style aesthetic view
+- `index.html`: an Eldritch God corrupted Win95 inspired desktop
+- `upload.html`: image upload for more goosing
+- `belles-lettres.html`: voting carousels of the warrior goosen previously uploaded
+- `goose.html`: just a goose trying to avoid affine matrices so he doesn't become warped
+- `vibes.html`: a CRT style tv with different music channels 
 
 ---
 
