@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(make:*)",
+      "Bash(docker:*)",
+      "Bash(docker-compose:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run lint:*)",
+      "Bash(npm install:*)",
+      "Bash(tree:*)",
+      "Bash(wc:*)"
+    ]
+  }
+}
