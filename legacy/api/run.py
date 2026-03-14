@@ -27,7 +27,7 @@ if __name__ == '__main__':
     heimdahl(f'[RUNNING] \'{"TEST" if args.dev else "PRODUCTION"}\' MODE', unveil = args.verbose, threat = 1)
 
     try: 
-        state.app.run(host = settings.IP, port = settings.PORT, debug = settings.DEV or settings.VB, threaded = False)
+        state.app.run(host = settings.HOST, port = settings.PORT, debug = settings.DEV or settings.VB, threaded = False)
     finally:
         state.goose.close()
         heimdahl(f'[CLOSED] \'{state.goose.__class__.__name__}\'', unveil = True, threat = 3)
