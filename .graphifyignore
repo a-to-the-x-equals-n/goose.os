@@ -1,0 +1,10 @@
+# .graphifyignore
+node_modules/
+dist/
+*.generated.py
+__pycache__/
+.git/
+graphify-out/
+legacy/api/app/models/assets/
+legacy/data/assets/gooses/
+port/public/

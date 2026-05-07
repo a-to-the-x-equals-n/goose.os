@@ -1,0 +1,270 @@
+{
+  "C:\\Users\\logan\\goose.os\\legacy\\api\\run.py": {
+    "mtime": 1778111532.9410965,
+    "hash": "fac0df69a225d977d10d8e4fe2798833"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\api\\app\\routes.py": {
+    "mtime": 1778111532.9410965,
+    "hash": "be7303fffd5c74e5a545e41a981e851c"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\api\\app\\settings.py": {
+    "mtime": 1778111532.9410965,
+    "hash": "d44c11abd9995b0d1dbaa377f01207ad"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\api\\app\\state.py": {
+    "mtime": 1778111532.9410965,
+    "hash": "4e841d2cb1a90b31e11083cb76382df7"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\api\\app\\__init__.py": {
+    "mtime": 1778111532.9102144,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\api\\app\\models\\goose.py": {
+    "mtime": 1778111532.9410965,
+    "hash": "380634c614838d0ceece0b50362a4d55"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\api\\app\\models\\__init__.py": {
+    "mtime": 1778111532.9122248,
+    "hash": "7788aed7ec2b955fd7660b4dbaed6d48"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\api\\app\\util\\goodboy.py": {
+    "mtime": 1778111532.9410965,
+    "hash": "3cb152bb6741083f9b91c508a5ec6a3b"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\api\\app\\util\\__init__.py": {
+    "mtime": 1778111532.9410965,
+    "hash": "276c25195479ae21fc06abd93aeb25d2"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\api\\app\\util\\debuggernaut\\colrs.py": {
+    "mtime": 1778111532.9410965,
+    "hash": "f3fad5b75396df448bc60456022fc62d"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\api\\app\\util\\debuggernaut\\HAL.py": {
+    "mtime": 1778111532.9410965,
+    "hash": "e30d45ec7192d1f559abe2e6d7484a7c"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\api\\app\\util\\debuggernaut\\heimdahl.py": {
+    "mtime": 1778111532.9410965,
+    "hash": "642d89ce215e903efc1df7d7c3a7cae9"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\api\\app\\util\\debuggernaut\\pests.py": {
+    "mtime": 1778111532.9410965,
+    "hash": "3661000457fd25c5aecad3dfaebec634"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\api\\app\\util\\debuggernaut\\__init__.py": {
+    "mtime": 1778111532.9410965,
+    "hash": "dcf789e55a6056092776a78a8ba91e04"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\data\\init.sql": {
+    "mtime": 1778111532.9699657,
+    "hash": "efd909ca998ce07575a38c4658fd64b4"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\js\\afghan\\afghan.js": {
+    "mtime": 1778111533.0233967,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\js\\goose_game\\badguy.js": {
+    "mtime": 1778111533.0233967,
+    "hash": "4af2ec4af531661a75423b2612508ba0"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\js\\goose_game\\goose.js": {
+    "mtime": 1778111533.025407,
+    "hash": "75150d43ee83fb79adb263dae80d1267"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\js\\goose_game\\info.js": {
+    "mtime": 1778111533.025407,
+    "hash": "0a8211edebc55f82f803453d4996d38a"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\js\\goose_game\\main.js": {
+    "mtime": 1778111533.025407,
+    "hash": "06b20d78e161081d8656cdd90c208c92"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\js\\home\\bsod.js": {
+    "mtime": 1778111533.02833,
+    "hash": "127797e2a4b3abc8843db0b771407b63"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\js\\home\\cosmic-terminal.js": {
+    "mtime": 1778111533.02833,
+    "hash": "68543fc7abdaf201b9a427bbbb4aaa84"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\js\\home\\fairygoosemother.js": {
+    "mtime": 1778111533.0292373,
+    "hash": "c0d3752c1bdf78828397d050c7ea626b"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\js\\home\\index.js": {
+    "mtime": 1778111533.0292373,
+    "hash": "7429376a79c61953e16b56bafcac5d20"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\js\\home\\themes.js": {
+    "mtime": 1778111533.0306196,
+    "hash": "e7b54d70c39d4b83569fe236cfcbb15c"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\js\\home\\window-manager.js": {
+    "mtime": 1778111533.0306196,
+    "hash": "9bd02bbdf3b25215bba3ef7e172c4c46"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\js\\vibes\\tv.js": {
+    "mtime": 1778111533.0326345,
+    "hash": "9bee670afd520aba4bb86de57a9d7cbb"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\js\\vote\\carousel.js": {
+    "mtime": 1778111533.0346458,
+    "hash": "4657bf32089fc18c77e9ad01edc0b61d"
+  },
+  "C:\\Users\\logan\\goose.os\\port\\eslint.config.mjs": {
+    "mtime": 1778111533.105873,
+    "hash": "6c4307ffa009658f5c97f5629094c0c2"
+  },
+  "C:\\Users\\logan\\goose.os\\port\\next.config.ts": {
+    "mtime": 1778111533.105873,
+    "hash": "025f4fcb6024b3524d19492cf7ce54a2"
+  },
+  "C:\\Users\\logan\\goose.os\\port\\postcss.config.mjs": {
+    "mtime": 1778111533.1143196,
+    "hash": "481fac0fdecd70e1821cc30b86030c1a"
+  },
+  "C:\\Users\\logan\\goose.os\\port\\app\\layout.tsx": {
+    "mtime": 1778111533.105873,
+    "hash": "3933b6ffdc86fd606df3d7eb948398e6"
+  },
+  "C:\\Users\\logan\\goose.os\\port\\app\\page.tsx": {
+    "mtime": 1778111533.105873,
+    "hash": "7b9d3609a7bc5aeaf5089fc1d8096414"
+  },
+  "C:\\Users\\logan\\goose.os\\port\\app\\game\\page.tsx": {
+    "mtime": 1778111533.1007028,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "C:\\Users\\logan\\goose.os\\port\\components\\bootSequence.tsx": {
+    "mtime": 1778111533.105873,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "C:\\Users\\logan\\goose.os\\port\\components\\desktop.tsx": {
+    "mtime": 1778111533.105873,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "C:\\Users\\logan\\goose.os\\port\\components\\window.tsx": {
+    "mtime": 1778111533.105873,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "C:\\Users\\logan\\goose.os\\CLAUDE.md": {
+    "mtime": 1778111532.8904037,
+    "hash": "bd0330d63529515dd00f1bbbdebe602a"
+  },
+  "C:\\Users\\logan\\goose.os\\README.md": {
+    "mtime": 1778111532.9029584,
+    "hash": "fcb568815127c591ffa73888539c998e"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\docker-compose.yml": {
+    "mtime": 1778111532.9699657,
+    "hash": "1cc93645602b075b516efacb9ff8e283"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\README.md": {
+    "mtime": 1778111532.9063578,
+    "hash": "6dd35dc437efbe0ea40be488119387ac"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\api\\requirements.txt": {
+    "mtime": 1778111532.9410965,
+    "hash": "ca9491df78b2c4140e39b00d5f829785"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\index.html": {
+    "mtime": 1778111533.0213854,
+    "hash": "4b4ecb0a77b9048a85db0fceeef3f23d"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\pages\\belles-lettres.html": {
+    "mtime": 1778111533.0346458,
+    "hash": "ea6f7e83a8da95662ad9374d2301a5c0"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\pages\\goose.html": {
+    "mtime": 1778111533.0366616,
+    "hash": "f01bc2c82be07e24c6410b10c62033df"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\pages\\upload.html": {
+    "mtime": 1778111533.0366616,
+    "hash": "02fd07c45570f10fef4f2795dd5b8f15"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\pages\\vibes.html": {
+    "mtime": 1778111533.0386517,
+    "hash": "bf75b04e43ed2445547747ba7130cccb"
+  },
+  "C:\\Users\\logan\\goose.os\\port\\README.md": {
+    "mtime": 1778111533.1007028,
+    "hash": "a2a784442e6a1da529143136d775f7f7"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\assets\\backgrounds\\oldtv.png": {
+    "mtime": 1778111532.9859645,
+    "hash": "7bc50d8d071920a68300ebfc6d845320"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\assets\\backgrounds\\vgod.png": {
+    "mtime": 1778111532.9859645,
+    "hash": "6ef6b4f3fb7a63d20b10e50784d8d3a5"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\assets\\backgrounds\\windows_bg.png": {
+    "mtime": 1778111532.9859645,
+    "hash": "a83982538a272413756fe5e4befef53b"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\assets\\favicons\\favicon-16x16.png": {
+    "mtime": 1778111533.0016477,
+    "hash": "c429706ae16a99a880afdad64c4b40a5"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\assets\\favicons\\favicon-32x32.png": {
+    "mtime": 1778111533.0016477,
+    "hash": "df0f1243e261e5ef11c3d69016d4277e"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\assets\\icons\\carousel-ico.svg": {
+    "mtime": 1778111533.0016477,
+    "hash": "902d27a12f3f7a1bf015fdc2e46f35ec"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\assets\\icons\\fairygoose.png": {
+    "mtime": 1778111533.0016477,
+    "hash": "21d35c7bed8062af1facf7742f54aab8"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\assets\\icons\\floppydisk.svg": {
+    "mtime": 1778111533.006163,
+    "hash": "9a0bb6e640aef0e47374aacb0233d08e"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\assets\\icons\\goosegame-ico.svg": {
+    "mtime": 1778111533.006163,
+    "hash": "742f38d3c266451ffcc6449851fba667"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\assets\\icons\\photos-ico.svg": {
+    "mtime": 1778111533.006163,
+    "hash": "3f94d1607775576bd4f196a78a7f0969"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\assets\\icons\\themes-ico.svg": {
+    "mtime": 1778111533.006163,
+    "hash": "0595204b2807f90270dfdcafbdf07e00"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\frontend\\assets\\icons\\tv-ico.svg": {
+    "mtime": 1778111533.006163,
+    "hash": "8bf0980d115f9155efa05e9489882d79"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\screenshots\\desktop.png": {
+    "mtime": 1778111533.0485702,
+    "hash": "49cd97ccb6e72ff8c4ef7e6075747904"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\screenshots\\fire-nation.png": {
+    "mtime": 1778111533.0525897,
+    "hash": "b5655f7f562dd415ab09886d4a2a547f"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\screenshots\\game.png": {
+    "mtime": 1778111533.0525897,
+    "hash": "88ba346ab0c160af9b7e94d2fe0ae421"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\screenshots\\no-gods.png": {
+    "mtime": 1778111533.0643642,
+    "hash": "f7d1926c36cc9c137d9c6c902b490781"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\screenshots\\silly-goosing.png": {
+    "mtime": 1778111533.0773277,
+    "hash": "943e59d2a195c4268ba436681a42bc64"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\screenshots\\upload-goose.png": {
+    "mtime": 1778111533.0795498,
+    "hash": "13f543699ad81262e00d13ae93dd408e"
+  },
+  "C:\\Users\\logan\\goose.os\\legacy\\screenshots\\vibes.png": {
+    "mtime": 1778111533.098896,
+    "hash": "7a4eba0c1f3cc56b0f688a028d407802"
+  }
+}
